@@ -16,9 +16,10 @@
 </head>
 <body>
     <main>
-        <div id="picture">
-            <img src="Images\image-product-desktop.jpg" alt="">
-        </div>
+        <picture id="picture">
+            <source media="(max-width: 575px)" srcset="Images\image-product-mobile.jpg">
+            <img src="Images/image-product-desktop.jpg" alt="product image"/>
+        </picture>
 
         <aside>
             <p>P E R F U M E</p>
